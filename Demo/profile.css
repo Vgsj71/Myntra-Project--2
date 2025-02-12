@@ -1,0 +1,180 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+.action_container {
+    text-decoration: none;
+}
+a.action_container:link {
+    color:black;
+}
+header {
+    display:flex;
+    background-color:#ffffff;
+    height:80px;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #ffffff;
+}
+
+.myntra_home {
+    height:45px;
+}
+
+.logo_container {
+    margin-left: 4%;
+}
+
+.action_bar {
+    margin-right:4%;
+}
+
+.nav_bar {
+    display:flex;
+    min-width:500px;
+    justify-content:space-evenly;
+}
+
+.nav_bar a{
+    font-size:14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .3px;
+    color:#202c3f;
+    padding:28px 0;
+    border-bottom: 5px solid #ffffff;
+    
+}
+
+.nav_bar a:hover {
+    border-bottom: 5px solid #f54e77;
+}
+
+.nav_bar a sup{
+    color:#ff3f6c;
+    font-size:10px;
+}
+
+.search_bar {
+    height:40px;
+    min-width:200px;
+    width:30%;
+    display:flex;
+    align-items: center;
+}
+.search_icon{
+    height: 20px;
+    box-sizing: content-box;
+    padding: 10px;
+    background-color: #f5f5f6;
+    color:#202c3f;
+    font-weight: 300;
+    border-radius:4px 0 0 4px;
+}
+.search_input {
+    color:#696e79;
+    background-color: #f5f5f6;
+    flex-grow:1;
+    height:40px;
+    border:none;
+    border-radius: 0 4px 4px 0;
+}
+.action_bar {
+    display: flex;
+    min-width:200px;
+    justify-content: space-evenly;
+}
+.action_container {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+
+/* main section */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+.profile_container {
+    display: flex;
+    background-color:whitesmoke;
+    border:1px solid black;
+    margin-top: 10px;
+    height: 800px;;
+    width:1000px;
+    min-width:200px;
+    flex-wrap: wrap;
+}
+
+.img_container {
+    height: 800px;
+    width:200px;
+    border:1px solid black;
+    background-color: #26497E;
+}
+
+.profile_info {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 200px;
+    margin:30px 150px 100px;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.name_in {
+    margin-right: 40px;
+    font-size:18px;
+    margin-top: 14px;
+}
+.name_input {
+    margin-top:5px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    height:42px;
+    width:270px;
+}
+.number_input {
+    margin-right: 56px;
+}
+.email_input {
+    margin-left:16px;
+}
+.state_input{
+    margin-left:42px;
+}
+.post_input{
+    margin-left:6px;
+}
+.Address_input{
+    margin-right:30px;
+    margin-top:5px;
+    margin-bottom: 15px;
+    height:45px;
+    width:295px;
+}
+h1 {
+    margin-bottom: 40px;
+}
+.btn {
+    background-color:#0ee20e;
+    border:none;
+    border-radius: 5px;
+    height:44px;
+    width:100px;
+    margin-top:25px;
+    margin-left:130px;
+}
+.btn:hover {
+    cursor: pointer;
+}
